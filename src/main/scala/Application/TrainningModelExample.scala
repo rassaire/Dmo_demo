@@ -64,7 +64,7 @@ object TrainningModelExample {
         // create a joint of three structure: actually the joint must have exactly 3 structures
 
 
-        val referencejoint = JointTriangleMesh3D(3,UnstructuredPointsDomain[_3D](referenceMesh1.pointSet.points.toIndexedSeq ++ referenceMesh2.pointSet.points.toIndexedSeq ++ referenceMesh2.transform(t).pointSet.points.toIndexedSeq),
+        val referencejoint = JointTriangleMesh3D(3,UnstructuredPointsDomain[_3D](referenceMesh1.pointSet.points.toIndexedSeq ++ referenceMesh2.pointSet.points.toIndexedSeq ++ referenceMesh3.pointSet.points.toIndexedSeq),
           List(referenceMesh1, referenceMesh2, referenceMesh3),
           List(posefeature1.map(l=>referenceMesh1.pointSet.findClosestPoint(l.point).id).toIndexedSeq,posefeature2.map(l=>referenceMesh2.pointSet.findClosestPoint(l.point).id).toIndexedSeq
             ,posefeature3.map(l=>referenceMesh3.pointSet.findClosestPoint(l.point).id).toIndexedSeq),
