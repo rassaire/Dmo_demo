@@ -124,7 +124,7 @@ case class DataCollectionOfMultiMesh(shapeReference: JointTriangleMesh[_3D], dat
     val rot2tagland = refrot2.map(m => new Landmark[_3D](shapeReference.objects.apply(1).pointSet.findClosestPoint(m).id.toString, m))
     val rot2 = LandmarkRegistration.rigid3DLandmarkRegistration(rot2tagland, rot2refland, shapeReference.rotCenters(1))
 
-    val mesh2 = currentmesh1.transform(RigidTransformation(rot2.rotation, trans2)) //(rot1.rotation).transform(trans1.translation)
+    val mesh2 = currentmesh2.transform(RigidTransformation(rot2.rotation, trans2)) //(rot1.rotation).transform(trans1.translation)
 
 
 
