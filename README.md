@@ -4,7 +4,7 @@ Scalable Dynamic Multi Shape  Modelling
 
 # Introduction
 
-This project aims to offer easy access to the modeling framework for multi-structures from interest from Medical images (MRI, CT scans etc.).
+This project aims to offer easy access to the modeling framework for multi-structures of interest from Medical images (MRI, CT scans etc.).
 It is a system that allows the easy creation of a dynamic mult-shape models, which can be trained to detect and segment structures from 3D/2D images.
 
 
@@ -14,7 +14,7 @@ The gif below describes the main functionality, in order for the user to underst
 We hope this project will serve well in making the state-of-the-art dynamic shape modelling more accessible in the field of medical imaging.
 
 
-<img src="DMO-animation.gif" width="50%">
+<img src="DMO-animation.gif" width="70%" hight="70%">
 
 
 
