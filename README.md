@@ -14,3 +14,6 @@ The gif below describes the main functionality, in order for the user to underst
 We hope this project will serve well in making the state-of-the-art dynamic shape modelling more accessible in the field of medical imaging.
 
 
+![](DmoGpm/DMO-animation.gif)
+
+
