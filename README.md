@@ -12,11 +12,7 @@ The project code is implated in Scalismo software(https://unibas-gravis.github.i
 system is functioning on your system.  
 The gif below describes the main functionality, in order for the user to understand the main processing cycle. 
 We hope this project will serve well in making the state-of-the-art dynamic shape modelling more accessible in the field of medical imaging.
-
-
-
-
-                               <img src="DMO-animation.gif" width="50%">
+<img src="DMO-animation.gif" width="50%">
 
 
 
