@@ -11,8 +11,9 @@ The gif below shows an illustrative summary of the main functionality, in order 
 
 
 
-
-<img src="DMO-animation.gif" width="50%" hight="50%" align="center">
+<p align="center">
+<img src="DMO-animation.gif" width="50%" hight="50%">
+</p>
 
 We hope this project will serve well in making the state-of-the-art dynamic shape modelling more accessible in the field of medical imaging.
 
