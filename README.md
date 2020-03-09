@@ -1,5 +1,5 @@
 # DMO-GPM
-Scalable dynamic Gaussian process models (DMO-GPM)
+Scalable dynamic multi-object Gaussian process models (DMO-GPM)
 
 
 # Description
